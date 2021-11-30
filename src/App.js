@@ -1,21 +1,24 @@
 import logo from './logo.svg';
+import umarImage from './assets/images/umarImage.jfif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={umarImage} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         🙋‍♂️ This is Umar Basha
         </p>
-        <a
+        
+        <p>My react app deployment in GitHub works. 🥳</p>
+      <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/umarbasha007/react-deploy/blob/main/package.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check the package.json file 📃
         </a>
       </header>
     </div>
